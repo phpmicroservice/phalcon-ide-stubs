@@ -1,0 +1,22 @@
+{
+    "name": "pms/phalcon-ide-stubs",
+    "type": "library",
+    "description": "The most complete Phalcon Framework IDE stubs library which enables autocompletion in modern IDEs.",
+    "keywords": [
+        "Phalcon",
+        "DevTools",
+        "IDE",
+        "Stubs",
+        "Stub",
+        "PhpStorm",
+        "Netbeans",
+        "Eclipse",
+        "autocomplete"
+    ],
+    "homepage": "https://phalconphp.com",
+    "license": "BSD-3-Clause",
+
+    "require": {
+        "php": ">=7.2.0"
+    }
+}
