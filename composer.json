@@ -1,5 +1,5 @@
 {
-    "name": "pms/phalcon-ide-stubs",
+    "name": "phpmicroservice/phalcon-ide-stubs",
     "type": "library",
     "description": "The most complete Phalcon Framework IDE stubs library which enables autocompletion in modern IDEs.",
     "keywords": [
