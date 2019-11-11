@@ -41,22 +41,25 @@ interface ModelInterface
      * Sets both read/write connection services
      *
      * @param string $connectionService
+     * @return Model
      */
-    public function setConnectionService(string $connectionService);
+    public function setConnectionService(string $connectionService): Model;
 
     /**
      * Sets the DependencyInjection connection service used to write data
      *
      * @param string $connectionService
+     * @return Model
      */
-    public function setWriteConnectionService(string $connectionService);
+    public function setWriteConnectionService(string $connectionService): Model;
 
     /**
      * Sets the DependencyInjection connection service used to read data
      *
      * @param string $connectionService
+     * @return Model
      */
-    public function setReadConnectionService(string $connectionService);
+    public function setReadConnectionService(string $connectionService): Model;
 
     /**
      * Returns DependencyInjection connection service used to read data

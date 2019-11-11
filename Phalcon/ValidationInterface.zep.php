@@ -23,7 +23,7 @@ interface ValidationInterface
      * @param object $entity
      * @return \Phalcon\Validation\Message\Group
      */
-    public function validate($data = null, $entity = null): Boole;
+    public function validate($data = null, $entity = null): Group;
 
     /**
      * Adds a validator to a field

@@ -16,10 +16,9 @@ class Direct extends \Phalcon\Flash
      * Outputs a message
      *
      * @param string $type
-     * @param mixed $message
-     * @return string
+     * @param string $message
      */
-    public function message(string $type, $message): string
+    public function message(string $type, string $message)
     {
     }
 

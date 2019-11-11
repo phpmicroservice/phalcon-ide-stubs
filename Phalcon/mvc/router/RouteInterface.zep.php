@@ -37,8 +37,9 @@ interface RouteInterface
      * Set one or more HTTP methods that constraint the matching of the route
      *
      * @param mixed $httpMethods
+     * @return Route
      */
-    public function via($httpMethods);
+    public function via($httpMethods): Route;
 
     /**
      * Reconfigure the route adding a new pattern and a set of paths
@@ -59,8 +60,9 @@ interface RouteInterface
      * Sets the route's name
      *
      * @param string $name
+     * @return Route
      */
-    public function setName(string $name);
+    public function setName(string $name): Route;
 
     /**
      * Sets a set of HTTP methods that constraint the matching of the route
